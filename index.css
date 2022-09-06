@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: palevioletred;
+}
+
+.usuario {
+    background-color: rgb(233, 219, 219);
+    width: 60%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.usuario input {
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border-color: black;
+}
+
+.usuario button {
+    margin-top: 150px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.usuario button:hover {
+    background-color: rgb(238, 62, 62);
+    color: rgb(216, 199, 199);
+    border: none;
+}
+
+.contenedor {
+    width: 50%;
+    height: 80vh;
+    background-color: pink;
+    margin: 40px auto;
+    border-radius: 20px;
+    display: none;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    background-color:rgb(104, 188, 228) ;
+    font-size: 30px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(104, 188, 228);
+    padding: 5px;
+}
+
+.list {
+    list-style: none;
+    background-color: rgb(148, 164, 253);
+    text-align: center;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.ingresar {
+    text-align: center;
+    border-radius: 5px;
+    border-color: black;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.agregar {
+    width: 50px;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-color: rgb(240, 195, 195);
+    cursor: pointer;
+}
+
+.agregar:hover {
+    background-color: rgb(148, 164, 253);
+}
+
+.btn-delete {
+    width: 30px;
+    height: 20px;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: rgb(202, 52, 52);
+}
